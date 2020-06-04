@@ -60,7 +60,7 @@ spec:
   tls:
   - match:
     - port: 443
-      sni_hosts:
+      sniHosts:
       - www.googleapis.com
     route:
     - destination:
@@ -93,7 +93,7 @@ spec:
   tls:
   - match:
     - port: 443
-      sni_hosts:
+      sniHosts:
       - storage.googleapis.com
     route:
     - destination:
